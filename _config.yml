@@ -39,6 +39,9 @@ playstore:
   url: "https://play.google.com/store/apps/details?id=com.syncedcounter"
   image: "/assets/images/playstore.png"
 
+include:
+  - ".well-known"
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

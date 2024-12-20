@@ -36,7 +36,7 @@ github:
   is_user_page : false
 
 playstore:
-  url: "https://play.google.com/store/apps/details?id=com.syncedcounter"
+  url: "https://play.google.com/store/apps/details?id=io.counter.synced.synced_counter"
   image: "/assets/images/playstore.png"
 
 include:

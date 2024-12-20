@@ -1,6 +1,18 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: default_updated
 ---
+
+# TL;DR
+
+[Link to another page](./tldr.html).
+
+# Privacy Policy
+
+[Link to another page](./privacy_policy.html).
+
+# Term of use
+
+[Link to another page](./term_of_use.html).
+
+
+

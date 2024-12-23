@@ -12,7 +12,7 @@ layout: default_updated
 
 # Term of use
 
-[Term of use](./term_of_use.html).
+[Term of use](https://syncedcounter.app/term_of_use.html).
 
 
 

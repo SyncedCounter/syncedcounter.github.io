@@ -4,15 +4,15 @@ layout: default_updated
 
 # TL;DR
 
-[Link to another page](./tldr.html).
+[TL;DR](./tldr.html).
 
 # Privacy Policy
 
-[Link to another page](./privacy_policy.html).
+[Privacy Policy](https://syncedcounter.app/privacy_policy.html).
 
 # Term of use
 
-[Link to another page](./term_of_use.html).
+[Term of use](./term_of_use.html).
 
 
 

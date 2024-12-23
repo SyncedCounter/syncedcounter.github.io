@@ -2,9 +2,9 @@
 layout: default_updated
 ---
 
-# TL;DR
+# Delete my account
 
-[TL;DR](./tldr.html).
+[Delete my account](./delete_account.html).
 
 # Privacy Policy
 

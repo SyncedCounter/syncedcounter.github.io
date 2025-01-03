@@ -23,9 +23,9 @@ github: false
 #webmaster_verifications:
 #google: verification_code
 google_analytics: G-FMPXZRX7B8
-#doorbell:
-#  id: doorbell_id
-#  appKey: doorbell_appKey
+doorbell:
+  id: 14387
+  appKey: 9n4ZqNGQkx9HB385NZzCLc8Q4rcdMVMxssrNOZiFAZ0ie5ZWc5kvTF3IsMWRlu9d
 
 include:
   - ".well-known"

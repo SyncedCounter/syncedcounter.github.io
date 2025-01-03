@@ -1,0 +1,38 @@
+name: SyncedCounter
+description: Track your counters online with real-time sharing and seamless collaboration! Stay organized and never lose track with SyncedCounter – the ultimate FREE counter app designed for simplicity and power.
+full_description: |
+  <b>Stay organized and never lose track with SyncedCounter – the ultimate FREE counter app designed for simplicity and power.</b><br>
+  <br>Effortlessly create, rename, and delete counters while enjoying automatic online synchronization. Whether you're counting people at events, managing different entrances, or tracking inventories, SyncedCounter is your go-to solution. Share counters with friends, family, or colleagues to collaborate in real-time – perfect for tracking shared goals, managing guest lists, or controlling attendance.
+  <br>
+  <br><b>✨ Key Features:</b>
+  <br><b>• Unlimited Counters:</b> Create, rename, and delete counters anytime, anywhere.
+  <br><b>• Real-time Sync:</b> Automatic cloud backup ensures you never lose progress.
+  <br><b>• Live Sharing:</b> Share counters with multiple subscribers and track changes in real-time. Only the owner can reset the counter.
+  <br><b>• Volume Button Control:</b> Use hardware volume keys to increment or decrement counters effortlessly.
+  <br><b>• Vibration & Sound Feedback:</b> Receive immediate feedback with haptic vibrations or sounds on every change.
+  <br><b>• Light & Dark Mode:</b> Choose between light and dark themes for the perfect experience, day or night.
+  <br><b>• Totally Free:</b> Enjoy all features with no cost – no hidden fees, no in-app purchases.
+  <br>
+  <br><b>🔄 Why SyncedCounter?</b>
+  <br><b>• Ideal for managing events, tracking attendance, and handling large gatherings.</b> Count people across multiple entrances and stay updated in real-time.
+  <br><b>• Perfect for inventory, workout reps, collaborative projects, or group tasks.</b>
+  <br><b>• Peace of mind:</b> Your counters are always synchronized, secure, and up-to-date.
+  <br><b>• Simple yet powerful:</b> Simplify counting with an intuitive design and smart features tailored for efficiency.
+  <br>
+  <br><b>Take control of counting – Download SyncedCounter now and enjoy the best FREE counting experience available!</b>
+android: https://play.google.com/store/apps/details?id=io.counter.synced.synced_counter
+iOS: false
+web: false
+screenshots:
+  - 01-screenshot.png
+  - 02-screenshot.png
+  - 03-screenshot.png
+  - 04-screenshot.png
+  - 05-screenshot.png
+  - 06-screenshot.png
+producthunt: false
+#companies:
+#  - url: https://telegra.ph/Replace-this-link-07-23
+#    image: androidpolice.png
+#  - url: https://telegra.ph/Replace-this-link-07-23
+#    image: producthunt.png

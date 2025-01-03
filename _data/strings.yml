@@ -1,0 +1,15 @@
+app:
+  screenshots: Screenshots
+  description: Description
+
+  #featured: Featured in
+
+footer:
+  copyright: Made with ❤️ by Fr0zen Development
+  links:
+    - title: Privacy Policy
+      url: privacy_policy.html
+    - title: Terms of use
+      url: term_of_use.html
+    - title: Delete my account
+      url: delete_account.html

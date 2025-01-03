@@ -1,63 +1,62 @@
-# Welcome to Jekyll!
+### Welcome to Jekyll Webpack Boilerplate
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# This config file contains the config of your webpages
+# You may also want to update /config/webpack.pwa.js in case you want to generate a Progressive Web App
 
-title: SyncedCounter
+title: Track your counters online with real-time sharing and seamless collaboration!
+tagline: Effortlessly create, rename, and delete counters while enjoying automatic online synchronization. Share counters with friends, family, or colleagues to collaborate in real time – perfect for tracking shared goals or inventories.
+
 email: syncedcounter.application@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  SyncedCounter is a simple counter application that offers online synchronization. You can register multiple counters, share a counter with your friends or colleagues and count in real time.
+description: Effortlessly create, rename, and delete counters while enjoying automatic online synchronization. Share counters with friends, family, or colleagues to collaborate in real time – perfect for tracking shared goals or inventories.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://syncedcounter.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://syncedcounter.app" # the base hostname & protocol for your site, e.g. http://example.com
+theme_color: '#FF191C1D'
+github_username:  syncedcounter
+logo: assets/images/large-logo.png
 
-# Build settings
-remote_theme: pages-themes/architect@v0.2.0
-plugins:
-- jekyll-remote-theme
-- jekyll-sitemap
+languages: ["en"]
+ampdir: amp
 
-github:
-  is_project_page : false
-  is_user_page : false
+github: false
 
-playstore:
-  url: "https://play.google.com/store/apps/details?id=io.counter.synced.synced_counter"
-  image: "/assets/images/playstore.png"
+### Google webmaster tools, Google Analytics, Doorbell and Cookie consent uncomment and put the API key
+#webmaster_verifications:
+#google: verification_code
+google_analytics: G-FMPXZRX7B8
+#doorbell:
+#  id: doorbell_id
+#  appKey: doorbell_appKey
 
 include:
   - ".well-known"
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+cookie_consent: true
+
+### Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - octopress-minify-html
+  - amp-jekyll
+
+### Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - _src
+  - _images
+  - LICENSE
+  - package.json
+  - README.md
+  - webpack.config.js
+  - yarn-error.log
+  - yarn.lock
+  - config
+  - optimization-fix
+  - optimization-fix-this-file-is-ignored.js
+  - icon.png
+  - docs

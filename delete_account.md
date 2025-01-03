@@ -1,6 +1,7 @@
 ---
-layout: default_updated
-title: "Privacy policy"
+layout: page
+title: SyncedCounter - Delete my account
+permalink: delete_account.html
 ---
 
 # How to delete my account
